@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 32px;
+}
+h1, h2 {
+  font-size: 80px;
+  font-family: 'letosansregular';
+  max-width: 663px;
+  margin: auto;
+  line-height: 72px;
+  letter-spacing: -0.05em;
+}
+p {
+  padding: 16px 0 32px;
+  max-width: 636px;
+  margin: auto;
+  font-size: 32px;
+  font-family: 'rubikregular';
+  line-height: 40px;
+  letter-spacing: -0.02em;
+}
+.produce {
+  position: absolute;
+}
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+body {
+  background-color: #E5E5E5;
+  margin: 0 20px;
+}
+.container {
+  background-color: #fff;
+  max-width: 1261px;
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+.container-logo {
+  padding: 99px 0;
+}
+h1 {
+  color: #001432;
+}
+.container-p {
+  max-width: 600px;
+}
+.container-submit {
+  font-family: 'rubikregular';
+  margin-bottom: 168px;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  background: #00E569;
+  border-radius: 8px;
+  padding: 0 40px;
+  min-height: 96px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.container-submit:hover {
+  background-color: #079247;
+  transition: 0.3s;
+}
+.vegetable_1 {
+  left: 0;
+  top: 22%;
+}
+.carrot {
+  top: 6%;
+  left: 26%;
+}
+.vegetable_2 {
+  top: 0;
+  left: 13%;
+}
+.banana {
+  top: 17%;
+  right: 6%;
+}
+.berry {
+  top: 39%;
+  right: 6%;
+}
+.herb {
+  top: 1.7%;
+  right: 3.5%;
+}
+.lemon {
+  top: 39%;
+  left: 9%;
+}
+.onion {
+  top: 31.5%;;
+  right: 0;
+}
+.large_leaf {
+  top: 28%;
+  right: 25.5%;
+}
+.small_leaf {
+  top: 30.5%;
+  left: 25%;
+}
+
+.form {
+  background-image: url(./img/background.png);
+  background-color: #00E569;
+  background-size: contain;
+  color: #fff;
+  height: 680px;
+  max-width: 1120px;
+  margin: auto;
+  border-radius: 8px;
+}
+.form .logo {
+  padding: 64px 0 43px;
+}
+form {
+  background-color: #fff;
+  margin: auto;
+  max-width: 630px;
+  min-height: 96px;
+  border-radius: 8px;
+}
+.form input[type="email"], .form button {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  height: 96px;
+  font-size: 32px;
+  font-family: 'rubikregular';
+  text-align: left;
+  background-color: #fff
+}
+.form button {
+  color: #00E569;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.form button:hover {
+  color: #079247;
+  transition: 0.3s;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+} 
+a {
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #8C8B99;
+  padding: 0 10px;
+  font-family: 'rubikregular';
+}
+a:last-child {
+  color: #00E569;
+  margin-left: 280px;
+}
+
+@media (max-width: 1260px) {
+  .banana, .carrot, .vegetable_1, .small_leaf, .large_leaf {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .container-logo {
+    padding: 32px 0;
+  }
+  h1, h2 {
+    font-size: 28px;
+    max-width: 207px;
+    margin: auto;
+    line-height: 28px;
+  }
+  p {
+    width: 220px;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 8px 0 24px;
+  }
+  .container-submit {
+    padding: 20px 0;
+    padding: 0 20px;
+    min-height: 40px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 79px;
+  }
+  .form {
+    background-image: url(./img/background_mobile.png);
+    height: 370px;
+  }
+  form {
+    background: transparent;
+  }
+  .form .logo {
+    padding: 32px;
+  }
+  .form input[type="email"], .form button {
+    height: 40px;
+    width: 280px;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    padding: 0 10px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .form button {
+    margin-top: 10px;
+  }
+  .info, a {
+    display: block;
+  }
+  a:last-child {
+    margin-left: 0;
+  
+  }
+  .banana, .carrot, .vegetable_1, .small_leaf, .large_leaf {
+    display: block;
+  }
+  .berry, .small_leaf, .large_leaf {
+    display: none;
+  }
+  .vegetable_2 {
+    left: 12px;
+  }
+  .carrot {
+    left: 40px;
+    top: 41px;
+  }
+  .banana {
+    right: 0;
+    top: 120px;
+  }
+  .vegetable_1 {
+    top: 160px;
+  }
+  .onion {
+    top: 220px;
+  }
+  .lemon {
+    left: 0;
+    top: 280px;
+  }
+}
